@@ -26,9 +26,7 @@ engine = sqlalchemy.create_engine(f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOS
 # Iterate over URL extensions
 for extension in url_extensions:
     url = base_url + extension
-
-    print('*' * 80)
-
+    
     try:
         # Request CSV data from the API 
         response = requests.get(url)
