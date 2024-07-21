@@ -1,0 +1,23 @@
+version: "2"
+services:
+    postgres:
+        image: postgres:9.3
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: technical_test
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+    app:
+        build: .
+        depends_on:
+            - postgres
+        volumes:
+            - .:/app
+        command: ["python3", "app.py"]
+
+volumes:
+    postgres_data:
