@@ -6,7 +6,7 @@ This project ingests data in the form of two small CSV files from an API. It use
 
 The application is Dockerised using Docker Compose to simplify the setup and deployment.
 
-
+<br>
 
 ### Build and run the container
 
@@ -18,9 +18,9 @@ The application is Dockerised using Docker Compose to simplify the setup and dep
 
 3. Build and run the container:
    
-   ```docker-compose up --build```
-   
-  
+   `docker-compose up --build`
+
+<br>
 
 ### Check data with PostgreSQL
 
