@@ -21,7 +21,7 @@ The application is Dockerised using Docker Compose to simplify the setup and dep
 
 ### Check data with PostgreSQL
 
-1. Connect to the PostgreSQL container. (postgres-container-id' can be found at the top left of Docker desktop under the container name):
+1. Connect to the PostgreSQL container ('postgres-container-id' can be found at the top left of Docker desktop under the container name):
 
    ```docker exec -it <postgres-container-id> psql -U postgres -d technical_test```
 
