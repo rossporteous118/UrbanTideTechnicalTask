@@ -10,7 +10,7 @@ The application is Dockerised using Docker Compose to simplify the setup and dep
 
 1. Clone the git repository:
    
-     git clone https://github.com/rossporteous118/UrbanTideTechnicalTask.git
+     ```git clone https://github.com/rossporteous118/UrbanTideTechnicalTask.git```
 
 2. Naviagte to the correct directory.
 
